@@ -1,0 +1,6 @@
+useDynLib(FDGcopulas)
+importFrom("randtoolbox",sobol)
+importFrom("numDeriv",jacobian)
+import(Rcpp)
+import(methods)
+export(FDGcopula, rhoFDG, tauFDG, utdcFDG, ltdcFDG, rFDG, fitFDG, corFDG)
